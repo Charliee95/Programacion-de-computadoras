@@ -1,0 +1,3 @@
+Carlos,1,4
+boca juniors,400,112
+river plate,200,110

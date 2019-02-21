@@ -1,0 +1,3 @@
+Mario,Benitez,112
+natalia,Gomez,110
+Carlos,Rodriguez,110

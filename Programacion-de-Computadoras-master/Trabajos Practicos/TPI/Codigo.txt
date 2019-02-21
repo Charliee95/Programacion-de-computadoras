@@ -1,0 +1,111 @@
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <string.h>
+
+
+struct empresas{
+    
+    char nombre[20];
+
+    int precio1;
+
+    int precio2;
+}
+empresas1={"encomiendas andreani",410,550},
+
+empresas2={"correo argentino",355,410},
+
+empresas3={"oca",410};
+
+
+
+int main()
+
+{
+
+    int opcion;
+
+    float peso=0;
+
+
+    printf(">>>precios<<<\n\n");
+    printf("---%s---\n\nprecio  500gr=%i$.\nprecio  2kg=%i$.\n\n ///////////////////// \n\n",empresas1.nombre,empresas1.precio1,empresas1.precio2);
+
+    printf("---%s---\n\nprecio  1kg=%i$.\nprecio  5kg=%i$.\n\n ///////////////////// \n\n",empresas2.nombre,empresas2.precio1,empresas2.precio2);
+
+    printf("---%s---\n\nprecio  5kg=%i$.\n\n ///////////////////// \n\n",empresas3.nombre,empresas3.precio1);
+
+    system("pause");
+
+    system("cls");
+
+    do{
+
+    	printf("ingrese la cantidad de  gramos de chocolates que desea enviar.\n\n\n1_ 500 gr.\n2_   1 kg.\n3_   2 kg.\n4_   5 kg.\n");
+
+    	scanf("%d",&opcion);
+
+    	fflush(stdin);
+
+    	switch(opcion){
+
+      	    case 1: peso=0.5;
+
+            break;
+
+      	    case 2: peso=1;
+
+            break;
+
+      	    case 3: peso=2;
+
+      	    break;
+
+            case 4: peso=5;
+
+            break;
+
+            default : printf("opcion invalida.\nintentelo de nuevo.\n");
+            system("pause");
+            system("cls");
+
+            break;
+
+
+    	    }
+
+    }while(peso==0);
+
+    if(peso==5){
+	system("cls");
+	printf("opciones sugeridas.\n\n---%s---         ---%s---      \nprecio=%i.                    precio=%i. \n\n    ",empresas2.nombre,empresas3.nombre,empresas2.precio2,empresas3.precio1);
+	}
+
+    else if(peso==2){
+	system("cls");
+	printf("opciones sugeridas.\n\n---%s---\n\nprecio=%i\n\n",empresas1.nombre,empresas1.precio2);
+	}
+
+    else if(peso==1){
+	system("cls");
+	printf("opciones sugeridas.\n\n---%s---\n\nprecio=%i\n\n",empresas2.nombre,empresas2.precio1);
+	}
+
+    else if(peso==0.5){
+	system("cls");
+	printf("opciones sugeridas.\n\n---%s---\n\nprecio=%i\n\n",empresas1.nombre,empresas1.precio1);
+	}
+
+
+
+
+
+
+
+
+
+    return 0;
+
+}

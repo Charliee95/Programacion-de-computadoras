@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1542133976 source:c:\users\cacul\desktop\tp4.2\equipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"equipo.h"
+	"jugador.h"
+
+1542132734 c:\users\cacul\desktop\tp4.2\equipo.h
+	"jugador.h"
+
+1542132944 c:\users\cacul\desktop\tp4.2\jugador.h
+
+1542132950 source:c:\users\cacul\desktop\tp4.2\jugador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jugador.h"
+
+1542133980 source:c:\users\cacul\desktop\tp4.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"equipo.h"
+	"jugador.h"
+
+1542133976 source:c:\users\cacul\desktop\tp4\equipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"equipo.h"
+	"jugador.h"
+
+1542132734 c:\users\cacul\desktop\tp4\equipo.h
+	"jugador.h"
+
+1542132944 c:\users\cacul\desktop\tp4\jugador.h
+
+1542132950 source:c:\users\cacul\desktop\tp4\jugador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jugador.h"
+
+1542193995 source:c:\users\cacul\desktop\tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"equipo.h"
+	"jugador.h"
+
+1542133976 source:c:\users\carlos\desktop\tps\tp4\equipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"equipo.h"
+	"jugador.h"
+
+1542132734 c:\users\carlos\desktop\tps\tp4\equipo.h
+	"jugador.h"
+
+1542132944 c:\users\carlos\desktop\tps\tp4\jugador.h
+
+1542132950 source:c:\users\carlos\desktop\tps\tp4\jugador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jugador.h"
+
+1542193995 source:c:\users\carlos\desktop\tps\tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"equipo.h"
+	"jugador.h"
+
