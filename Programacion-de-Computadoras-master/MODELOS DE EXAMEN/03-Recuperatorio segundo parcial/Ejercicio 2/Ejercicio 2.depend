@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1541646893 source:c:\users\carlos\desktop\recuperatorio\ejercicio 2\alumno.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+
+1541646893 c:\users\carlos\desktop\recuperatorio\ejercicio 2\alumno.h
+
+1541646893 source:c:\users\carlos\desktop\recuperatorio\ejercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+
+1542209496 source:f:\recuperatorio\ejercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+
+1542209254 f:\recuperatorio\ejercicio 2\alumno.h
+
+1542209746 source:f:\recuperatorio\ejercicio 2\alumno.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+
+1542209746 source:c:\users\carlos\desktop\cursada programacion\04-modelos de examen\03-recuperatorio segundo parcial\ejercicio 2\alumno.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+
+1542209254 c:\users\carlos\desktop\cursada programacion\04-modelos de examen\03-recuperatorio segundo parcial\ejercicio 2\alumno.h
+
+1542211608 source:c:\users\carlos\desktop\cursada programacion\04-modelos de examen\03-recuperatorio segundo parcial\ejercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+

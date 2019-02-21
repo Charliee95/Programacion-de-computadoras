@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1542370147 source:c:\users\carlos\desktop\cursada programacion\04-modelos de examen\02-practica segundo parcial\ej 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"nadador.h"
+
+1542370269 c:\users\carlos\desktop\cursada programacion\04-modelos de examen\02-practica segundo parcial\ej 2\nadador.h
+
+1542318210 source:c:\users\carlos\desktop\cursada programacion\04-modelos de examen\02-practica segundo parcial\ej 2\nadador.c
+	<stdio.h>
+	<stdlib.h>
+	"nadador.h"
+
